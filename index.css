@@ -1,0 +1,681 @@
+root,html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* tablet */
+@media(min-width: 576px){
+    
+        
+    .navigasi{
+        padding-left: 12px;
+        margin-left: 12px;
+        margin-right: 0px;
+    }
+
+    .baris1{
+        padding-left: 12px;
+        margin-top: 37px;
+    }
+    .img-car {
+        width: 500px; 
+        height: 300px;
+    }
+    .text-awal{
+        padding-bottom: 20px;
+        padding-left: 12px;
+        padding-right: 100px;
+        
+    }
+
+    nav li{
+        margin-right: 17px;
+    }
+
+    .services{
+        margin-top: 60px;
+        margin-left: 0px;
+        padding-left: 20px;
+    }
+
+    .img-service{
+        width: 359px; 
+        height: 328px;
+        margin-bottom: 50px;
+    }
+
+    .teks-kedua{
+        padding-left: 12px;
+        padding-right: 70px;
+    }
+
+    .baris3{
+        margin-top: 50px;
+    }
+
+    .list-whyus{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .whyus-list{
+    width: 280px;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 12px;
+    }
+    
+    .jarak-whyus{
+        margin: 20px;
+    }
+
+    .textus{
+        margin-left: 12px;
+    }
+
+    .hero{
+        border: .1rem solid #d4d4d4;
+        border-radius: .2rem;
+        padding-left: 0px;
+    }
+
+}
+
+/* tablet */
+@media(max-width: 992px){
+    
+        
+    .navigasi{
+        padding-left: 12px;
+    }
+
+    .baris1{
+        padding-left: 12px;
+    }
+    .img-car {
+        width: 500px; 
+        height: 300px;
+    }
+
+    .baris1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    
+
+    
+}
+
+/* Desktop */
+@media(min-width: 992px){
+    
+    /* BARIS AWAL */
+    .navigasi{
+        padding-left: 136px;
+        padding-right: 30px;
+        margin-left: 0px;
+    }
+
+    .navbar-logo {
+        width: 100px;
+        height: 34px;
+    
+    }
+    
+    
+    
+    .navigation-list {
+        font-size: 14px;        
+    
+            
+    }
+    
+    .button-register  {
+        font-size: 14px;
+    }
+    
+    .img-car {
+        width: 704px; 
+        height: 407px;
+    }
+
+    .baris1{
+        padding-left: 136px;
+    }
+
+    .text-sewa{
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+    .text-awal{
+        padding-top: 67px;
+        padding-left: 0px;
+    }
+
+    .hero{
+        padding-right: 0px;
+    }
+
+    section{
+        display: flex;
+    }
+
+    .img-service{
+        width: 459px; 
+        height: 428px;
+
+        margin-left: 180px;
+        margin-right: 100px;
+    }
+
+    /* SERVICE */
+    .service{
+        margin-top: 100px;
+    }
+
+    .text-service{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .img-centang{
+        width: 24px;
+        height: 24px;
+    }
+
+    .teks-kedua{
+        padding-left: 50px;
+        padding-right: 100px;
+    }
+
+    /* WHY US */
+    .list-whyus{
+        width: 100%;
+        display: flex;
+    
+    }
+
+    .whyus-list{
+    width: 280px;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 30px;
+    }
+    
+    .jarak-whyus{
+        margin: 20px;
+    }
+
+    .textus{
+        margin-left: 50px;
+    }
+
+
+    
+
+    /* TESTIMONIAL */
+    .owl-carousel .item{
+        width: 619px;
+        height: 270px;
+        margin-top: 40px; 
+        background: #F1F3FF;
+        margin-left: 32px;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+        display: flex;
+        border-radius: 8px;
+    }
+
+    .owl-carousel .owl-item .img-orang {
+        width: 80px;
+        height: 80px;
+        margin-right: 46px;
+        margin-left: 46px;
+        margin-top: 95px;
+        margin-bottom: 95px;
+    }
+    .owl-carousel .owl-item .img-bintang {
+        width: 80px;
+        height: 16px;
+        left: 0px;
+        top: 0px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 8px 0px;
+    }
+    .owljudul-list{
+        width: 415px;
+        height: 80px;
+        left: 0px;
+        top: 24px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .owlkalimat-list{
+        width: 415px;
+        height: 20px;
+        left: 0px;
+        top: 112px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 8px 0px;
+    }
+
+    .teks-kanan{
+        margin-top: 69px;
+        margin-top: 69px;
+    }
+
+    .testi{
+        margin-top: 100px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .testii{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .baris4{
+        width: 1438px;
+    }
+    /* .testi{
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .konten{
+        width: 20%;
+        border: .3rem solid blue;
+        border-radius: .2rem;
+        margin: 5px;
+        align-items: flex-start;
+        justify-content: center;
+    } */
+
+    /* tombol biru */
+    .tombol{
+    margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .card{
+        width: 1168px;
+        height: 326px;
+        background: #0D28A6;
+        border: .3rem;
+        border-radius: .5rem;
+        margin: 5px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    .card-body{
+        color: white;
+        margin-left: 270px;
+        margin-right: 285px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .sewa-atas{
+        width: 613px;
+        height: 54px;
+        left: 406px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 150%;
+    }
+
+    .sewa-tengah{
+        width: 468px;
+        height: 40px;
+        left: 478px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300px;
+        font-size: 14px;
+        line-height: 20px;
+
+        text-align: center;
+
+        color: #FFFFFF; 
+
+        margin: auto;
+    }
+    
+    .tombol-bawah{
+        margin-top: 52px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-sewa{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 12px;
+
+        background: #5CB85F;
+        border-radius: 2px;
+    }
+
+    .sewa-button{
+        width: 116px;
+        height: 20px;
+        left: 12px;
+        top: 8px;
+        margin-bottom: 0px;
+        
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* FAQ */
+    .FAQ-content {
+        width: 1190px;
+        margin-top: 100px;
+    }
+    
+    .faqs{
+        margin-left: 136px;
+        padding-left: 0px;
+    }
+    .faq-desc-content h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+    
+    .faq-desc-content p{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;    
+        color: #000000;
+    }
+    
+    .accordion-item {
+        margin-top: 16px;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    /* .faq{
+        margin-top: 100px;
+        max-height: 500px;
+    }
+    .faqq{
+        width: 500px;
+    }
+    .baris5{
+        padding-left: 65px;
+        display: flex;
+        flex-direction: row;
+    }
+    .text-faq{
+        height: 36px;
+        left: 9.44%;
+        right: 65%;
+        top: 2508px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+
+        color: #000000;
+    }
+    .text-faqq{
+        width: 368px;
+        height: 20px;
+        left: 136px;
+        top: 2560px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+
+        color: #000000;
+    }
+    
+    .faqsec{
+        width: 500px;
+        height: 500px;
+        max-height: 500px;
+    }
+
+    .tulisan-dropdon{
+        margin-left: 24px;
+        margin-bottom: 0px;
+    }
+
+    .accordion{
+        width: 668px;
+        height: 56px;
+    }
+    
+    .accordion-item{
+        margin-bottom: 20px;
+    } */
+
+    /* Footer */
+    .footer{
+        width: 1141px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+        padding-left: 0px;
+    }
+    .list-footer{
+        display: flex;
+    }
+
+    .jarak-footer-satu{
+        margin-right: 86px;
+    }
+    .footer-satu{
+        width: 268px;
+        height: 40px;
+        left: 0px;
+        top: 0px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .jarak-footer-kedua{
+        margin-right: 86px;
+    }
+    .footer-kedua{
+        width: 79px;
+        height: 20px;
+        left: 0px;
+        top: 0px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .jarak-footer-tiga{
+        width: 268px;
+        margin-right: 86px;
+    }
+    .footer-tiga{
+        width: 268px;
+        height: 20px;
+
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .img-footer{
+        width: 32px;
+        height: 32px;
+        margin-right: 16px;
+    }
+
+    .footer-empat{
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .img-footer-empat{
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+    }
+}
+
+/* Large desktop */
+@media(min-width: 1200px){
+    
+        
+    
+
+    .navbar-logo {
+        width: 100px;
+        height: 34px;
+    
+    }
+    
+    .baris1{
+        display: flex;
+    }
+    
+    .navigation-list {
+        font-size: 14px;        
+    
+            
+    }
+    
+    .button-register  {
+        font-size: 14px;
+    }
+    
+    .img-car {
+        width: 704px; 
+        height: 407px;
+    }
+
+    .baris1{
+        padding-left: 136px;
+    }
+
+    .baris2{
+        display: flex;
+    }
+
+    .list-whyus{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .whyus-list{
+    width: 280px;
+    border: 1px solid #D0D0D0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 5px;
+    margin-left: 50px;
+    }
+    
+    .jarak-whyus{
+        margin: 20px;
+    }
+
+    .textus{
+        margin-left: 50px;
+    }
+    
+}
+
+@media(min-width: 1400px){
+    
+        
+    
+
+    .navbar-logo {
+        width: 100px;
+        height: 34px;
+    
+    }
+    
+    .baris1{
+        display: flex;
+    }
+    
+    .navigation-list {
+        font-size: 14px;        
+    
+            
+    }
+    
+    .button-register  {
+        font-size: 14px;
+    }
+    
+    .img-car {
+        width: 704px; 
+        height: 407px;
+    }
+
+    .baris1{
+        padding-left: 136px;
+    }
+
+    .hero{
+        max-width: 1440px;
+    }
+    
+}
